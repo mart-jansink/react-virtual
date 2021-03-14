@@ -216,6 +216,7 @@ export function useVirtual({
   )
 
   return {
+    outerSize,
     virtualItems,
     totalSize,
     scrollToOffset,
